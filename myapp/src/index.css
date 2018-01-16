@@ -1,0 +1,15 @@
+.Square{
+
+  width:40px;
+  height:40px;
+  font-size: 18px;
+  font-weight: bold;
+  color:rgb(52, 30, 246);
+  float:left;
+}
+
+.board-row:after {
+  clear: both;
+  content:'';
+  display: grid;
+}
